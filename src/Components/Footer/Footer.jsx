@@ -4,7 +4,7 @@ import './Footer.css'
 export const Footer = () => {
   return (
     <div className='footer'>
-        <img src="../pics/logo.png" className="footer-logo" alt="" />
+        <img src="../data/logo.png" className="footer-logo" alt="" />
         <ul className='links'>
             <li>Sign In</li>
             <li>View Cart</li>
@@ -14,16 +14,16 @@ export const Footer = () => {
         </ul>
         <div className="socials">
             <div className="icons">
-                <img src="../pics/instagram.svg" alt="" />
+                <img src="../data/instagram.svg" alt="" />
             </div>
             <div className="icons">
-                <img src="../pics/twitter.svg" alt="" />
+                <img src="../data/twitter.svg" alt="" />
             </div>
             <div className="icons">
-                <img src="../pics/youtube.svg" alt="" />
+                <img src="../data/youtube.svg" alt="" />
             </div>
             <div className="icons">
-                <img src="../pics/facebook.svg" alt="" />
+                <img src="../data/facebook.svg" alt="" />
             </div>
         </div>
         <div className = "copyright">
