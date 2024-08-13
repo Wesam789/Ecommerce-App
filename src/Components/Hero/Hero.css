@@ -14,8 +14,8 @@
     line-height: 1.1;
     text-decoration: none;
     justify-content: center;
-    margin-left: 50vh;
-    margin-top: -20vh;
+    margin-left: 44vh;
+    margin-top: -8vh;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
@@ -34,14 +34,15 @@
 }
 .top{
     margin-bottom: -12vh;
+    margin-left: 10vh;
 }
 .bottom{
-    margin-left: -18vh;
+    margin-left: -8vh;
     margin-top: 13vh;
 
 }
 .hero-newest{
-    margin-left: -20vh;
+    margin-left: -8vh;
 }
 .hero-newest p{
     font-size: 32px;

@@ -4,14 +4,14 @@
     flex-direction: column;
     height: 90vh;
     gap: 10px;
-    margin-left: -9vh;
+    margin-left: -4vh;
 }   
 .popular2 h1{
     color: black;
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 12px;
-    margin-left: 8vh;
+    margin-left: 6vh;
 }
 .popular2 hr{
     display: flex;
@@ -20,7 +20,7 @@
     width: 205px;
     height: 6px;
     background: black;  
-    margin-left: 95vh;
+    margin-left: 93vh;
 }
 .items_popular2{
     gap: 8px;
