@@ -1,10 +1,15 @@
 import React from 'react'
 import './Footer.css'
+import logoPic2 from '../data/logo.png';
+import igPic from '../data/instagram.svg';
+import twitterPic from '../data/twitter.svg';
+import ytPic from '../data/youtube.svg';
+import fbPic from '../data/facebook.svg';
 
 export const Footer = () => {
   return (
     <div className='footer'>
-        <img src="../data/logo.png" className="footer-logo" alt="" />
+        <img src={logoPic2} className="footer-logo" alt="" />
         <ul className='links'>
             <li>Sign In</li>
             <li>View Cart</li>
@@ -14,16 +19,16 @@ export const Footer = () => {
         </ul>
         <div className="socials">
             <div className="icons">
-                <img src="../data/instagram.svg" alt="" />
+                <img src={igPic} alt="" />
             </div>
             <div className="icons">
-                <img src="../data/twitter.svg" alt="" />
+                <img src={twitterPic} alt="" />
             </div>
             <div className="icons">
-                <img src="../data/youtube.svg" alt="" />
+                <img src={ytPic} alt="" />
             </div>
             <div className="icons">
-                <img src="../data/facebook.svg" alt="" />
+                <img src={fbPic} alt="" />
             </div>
         </div>
         <div className = "copyright">

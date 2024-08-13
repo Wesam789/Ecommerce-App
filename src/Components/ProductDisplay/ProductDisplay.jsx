@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import './ProductDisplay.css'
 import { ShopContext } from '../../Context/ShopContext'
+import solidStar from '../data/star-solid.svg';
+import openStar from '../data/star-open.svg';
 
 export const ProductDisplay = (prod) => {
     const {addToCart} = useContext(ShopContext);
@@ -21,12 +23,12 @@ export const ProductDisplay = (prod) => {
         <div className='productdisplay-right'>
             <h1>{prod.name}</h1>
             <div className="productdisplay-right-star">
-                <img src= "../pics/star-solid.svg" alt="" />
-                <img src= "../pics/star-solid.svg" alt="" />
-                <img src= "../pics/star-solid.svg" alt="" />
-                <img src= "../pics/star-solid.svg"alt="" />
-                <img src= "../pics/star-open.svg" alt="" />
-                <p>(96 Reviews)</p>
+                <img src= {solidStar} alt="" />
+                <img src= {solidStar} alt="" />
+                <img src= {solidStar} alt="" />
+                <img src= {solidStar}alt="" />
+                <img src= {openStar} alt="" />
+                <p>(72 Reviews)</p>
             </div>
             <div className='productdisplay-right-prices'>
                 <div className="productdisplay-right-price-old">${prod.old_price}</div>
