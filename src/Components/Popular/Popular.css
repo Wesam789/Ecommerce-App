@@ -11,15 +11,17 @@
     color: black;
     font-size: 50px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     margin-left: 8vh;
 }
 .popular hr{
+    display: flex;
+    align-items: center;
     border-radius: 10px;
     width: 205px;
     height: 6px;
     background: black;  
-    margin-left: 87vh;
+    margin-left: 95vh;
 }
 .items_popular{
     gap: 8px;
