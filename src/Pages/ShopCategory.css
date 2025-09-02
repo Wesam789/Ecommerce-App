@@ -36,7 +36,8 @@
 }
 .footerShop{
     display: flex;
+    justify-content: center; 
     align-items: center;
-    margin-left: 16vh;
+    margin-left: 8vh;
     margin-top: 12vh;
 }

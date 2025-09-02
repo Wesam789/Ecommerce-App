@@ -4,7 +4,6 @@
     flex-direction: column;
     height: 90vh;
     gap: 10px;
-    margin-top: 100px;
     margin-left: -4vh;
 }   
 .popular h1{
@@ -21,12 +20,12 @@
     width: 205px;
     height: 6px;
     background: black;  
-    margin-left: 93vh;
+    margin-left: 81vh;
 }
 .items_popular{
     gap: 8px;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-left: 18vh;
+    margin-left: 11vh;
 }

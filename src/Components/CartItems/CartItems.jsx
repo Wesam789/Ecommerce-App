@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './CartItems.css'
 import {ShopContext} from '../../Context/ShopContext'
+import remove from '../data/remove.svg';
 
 export const CartItems = () => {
     const {getCartTotal, all_items, cartItems, removeFromCart} = useContext(ShopContext);
@@ -24,7 +25,7 @@ export const CartItems = () => {
                     <p>${e.new_price}</p>
                     <button className="cartitems-quantity">{cartItems[e.id]}</button>
                     <p>${e.new_price*cartItems[e.id]}</p>
-                    <img className='cartItems-remove'src="../pics/remove.svg" onClick={()=>{removeFromCart(e.id)}} alt="" />
+                    <img className='cartItems-remove'src={remove} onClick={()=>{removeFromCart(e.id)}} alt="" />
                 </div>
                 <hr />
             </div>

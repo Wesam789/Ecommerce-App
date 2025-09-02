@@ -20,12 +20,12 @@
     width: 205px;
     height: 6px;
     background: black;  
-    margin-left: 93vh;
+    margin-left: 81vh;
 }
 .items_popular3{
     gap: 8px;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-left: 18vh;
+    margin-left: 11vh;
 }
