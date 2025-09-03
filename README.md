@@ -1,33 +1,32 @@
-# Job Tracker App :
+# Front-End Ecommerce App:
 
-A job application tracker built with React, Flask, and SQL.
-
-
-
-https://github.com/user-attachments/assets/3f604d54-4c82-4bfe-8ced-05e974603bd2
+A fully responsive front enmd e-commerce web application built with React, JavaScript, and HTML/CSS.
+git add README.md
 
 
 
 
 ## Features:
-- Track job applications (add, edit, delete).  
-- Search and filter by company name or status.  
-- Fully responsive UI with React.  
-- Backend API built with Flask & SQL.  
+- Seamless Product Browsing: Intuitive navigation with dynamic product listings.
+- Interactive Product Pages: Detailed product views with real-time updates.
+- Shopping Cart Functionality: Add, remove, and update items instantly.
+- Responsive Design: Optimized for smooth performance across desktop, tablet, and mobile devices.
+- Modern UI/UX: Built with reusable React components for speed and maintainability.  
 
 ## Tech Stack:
-- **Frontend:** React, CSS  
-- **Backend:** Flask, Python, SQL
+- **Frontend:** React, JavaScript, HTML, CSS
 
 ## Installation 
-Sup-Res requires Python 3.10+ to run. Use the package manager pip to install libraries. This process may take a long time.
+Clone the repository and install dependencies:
 
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 ## Usage 
+Run the development server:
 
 ````python
-python main.py 
+npm start
 ````
+The app will be available at http://localhost:3000.
 
